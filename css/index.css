@@ -96,7 +96,6 @@ div header nav a {
     text-decoration: none;
     font-size: 85%;
     font-weight: 600;
-    border: 1px dotted blue;
 }
 
 div img {
@@ -115,6 +114,14 @@ div img {
     width: 48%;
     padding: 8px 1%;
     padding-bottom: 20px;  
+}
+
+.about-top { 
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+    margin-top: 8px;
+    margin-bottom: 20px;
 }
 
 .middle-content {
@@ -198,24 +205,45 @@ div img {
     padding-right: 0;
 }
 
-.about-top {
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px dashed black;
-}
-
 .about-middle {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    justify-content: space-around;
 }
 
 .card {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;
-    border-bottom: 1 px dashed black;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin: 10px 5px 50px 5px;
+    border-bottom: 1px dashed black;
+}
+
+.card img {
+    margin-bottom: 13px;
+}
+
+.card button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 100%;
+}
+
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-bottom-container { 
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+    margin-bottom: 40px;
 }
 
 footer {
